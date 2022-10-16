@@ -39,9 +39,9 @@
   let spiderx = /bot|google|baidu|bing|msn|duckduckbot|teoma|slurp|yandex/i.test(navigator.userAgent);
   let gotcha = '_dXTaSdi';
   if(params.item && !spiderx) {
-   location.href = 'https://s.click.aliexpress.com/deep_link.htm?aff_short_key='+gotcha+'&dl_target_url=https://www.aliexpress.com/item/'+params.item+'.html';
+   location.href = 'https://reinzy.com/ja/id/'+params.item+'.html';
   } else if(params.item && spiderx) {
-   location.replace('https://m.availableitem.com/he/item/'+params.item+'.html');
+   location.replace('https://reinzy.com/ja/id/'+params.item+'.html');
   }
  })();
  </script>
